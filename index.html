@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge #2</title>
+</head>
+<body>
+    
+    <!-- Header pagina -->
+    <div style="background-color: #581845; height: 200px;">
+        
+        <img src="./Assets/image1.jpg"
+                style="width: 270px; float:left; margin: 10px;"
+                alt="disegno di ragazzo che ascolta musica con le cuffie"
+        />
+               
+        <div style ="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif; color: rgb(252, 252, 252); padding: 10px;">
+            
+            <h1>Your Music Stream</h1>
+            <h3>Registrazione al servizio di streaming</h3>
+            <p style="font-size: 9pt;">Challenge n. 2 del pre-corso di Web Developer Full Stack di Epicode</p>
+        </div>
+    </div>
+ 
+
+
+
+    
+    <!-- Form -->
+    <form onsubmit="alert('Registrazione inviata!')">       
+        
+        <!-- sezione dati personali utente -->
+        <div style ="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;background-color: #c70039; 
+            height: 290px; color: rgb(252, 252, 252);">
+            
+            <!-- titolo sezione -->
+            <div style="font-size: 24pt; padding: 20px; margin-inline-start: 400px;">
+                I tuoi dati personali
+            </div>
+            
+            <!-- campi raccolta dati -->
+            <div style="margin-inline-start: 40px;">
+                <div style="font-size: 14pt; margin: 10px; margin-inline-start: 400px;">
+                    Il tuo nome
+                    <input type="text" placeholder="Nome"/>
+                </div>
+
+                <div style="font-size: 14pt; margin: 10px; margin-inline-start: 400px;">
+                    Il tuo cognome
+                    <input type="text" placeholder="Cognome"/>
+                </div>
+                
+                <div style="font-size: 14pt; margin: 10px; margin-inline-start: 400px;">
+                    La tua email
+                    <input type="email" placeholder="email"/>
+                </div>
+                
+                <div style="font-size: 16pt; margin: 10px; margin-inline-start: 400px;">
+                    La tua data di nascita
+                    <input type="date"/>
+                </div>
+
+                <div style="font-size: 14pt; margin: 10px; margin-inline-start: 400px;">
+                    Il tuo numero di telefono
+                    <input type="number" placeholder="Numero di telefono"/>
+                </div>
+            </div>
+        </div>
+
+
+        
+        <!-- prefenze utente  -->
+        <div style ="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #fd4a21; height: 250px; color: rgb(252, 252, 252);">
+
+            <div style="font-size: 24pt; padding: 20px; margin-inline-start: 400px;">
+                I tuoi generi musicali preferiti
+            </div>
+            
+            <div style="margin-inline-start: 40px; margin-inline-start: 430px;">
+                <div style="font-size: 14pt; margin: 10px;">
+                    Jazz
+                    <input type="checkbox"/>
+                </div>
+                <div style="font-size: 14pt; margin: 10px;">
+                    Rock
+                    <input type="checkbox" />
+                </div>
+                <div style="font-size: 14pt; margin: 10px;">
+                    Pop
+                    <input type="checkbox" />
+                </div>
+                <div style="font-size: 14pt; margin: 10px;">
+                    Classica
+                    <input type="checkbox" />
+                </div>
+            </div>
+        </div>
+
+        <!-- submit button -->
+        <div style ="font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+            background-color: #ffc300; height: 90px; color: #900c3f;">
+            
+            <div style=" margin-inline-start: 400px; padding: 10px;">
+                Accetta termini e condizioni
+                <input type="radio" />
+            </div>
+            
+            <div>
+                <button style="height: 40px; margin-inline-start: 430px;" type="submit">Invia registrazione</button>
+            </div>
+        </div>
+    </form>
+    
+</body>
+</html>
