@@ -1,1 +1,1 @@
-Challenge n. 2 Epicode Corso Web Developer Full Stack
+Challenge #2 Corso Web Developer Full Stack Epicode di Ferdinando Di Nocera
